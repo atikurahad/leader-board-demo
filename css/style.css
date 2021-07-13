@@ -27,6 +27,12 @@ nav a:hover {
   color: aqua;
   background-color: burlywood;
 }
+.sign-in {
+  font-size: 45px;
+  color: cadetblue;
+  float: right;
+  margin-right: 20px;
+}
 /* main section */
 main {
   display: flex;
@@ -140,8 +146,7 @@ hr {
 @media only screen and (max-width: 688px) {
   nav {
     background-color: antiquewhite;
-    padding: 15px;
-    display: grid;
+    display: flex;
     width: 100%;
   }
 
@@ -162,8 +167,9 @@ hr {
  Tablet Devices
  +++++++++++++++++ */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-  .navbar {
+  .nav {
     width: 100%;
+    display: flex;
   }
   .container {
     width: 100%;
